@@ -1,0 +1,15 @@
+{
+    "name": "TestBotv3",
+    "description": "",
+    "secretKey": "",
+    "services": [
+        {
+            "appId": "",
+            "id": "f79b9840-88f3-11e8-bfd3-f76ed1e2add1",
+            "type": "endpoint",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ]
+}
