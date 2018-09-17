@@ -32,7 +32,7 @@ server.post('/api/messages', connector.listen());
 // var bot = new builder.UniversalBot(connector, function (session) {
 // session.send("You said: %s  %s", session.message.text,process.env.Hello_Message);
 // })
-var bot = new builder.UniversalBot(connector,)
+var bot = new builder.UniversalBot(connector)
 
 bot.use({
     botbuilder: function (session, next) {
